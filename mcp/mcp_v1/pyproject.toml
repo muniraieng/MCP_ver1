@@ -1,0 +1,10 @@
+[project]
+name = "mcp-v1"
+version = "0.1.0"
+description = "Learning project for building an MCP server"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "mcp[cli]>=1.28.1",
+    "mcp-use",
+]

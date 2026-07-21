@@ -1,0 +1,8 @@
+Help tip provided by munir.ai.eng@gmail.com
+===========================================
+
+Prompts: are reusable templates that help LLMs interact with your servr effectively.
+
+Resources: are how you expose data to LLMs. they're similar to GET endpoints in a REST API. they provide data but shouldn't perform significant computation or have side effects.
+
+Tools: let LLMs take action through your server. Unlike resources, tools are expected to perform computation and have side effects.

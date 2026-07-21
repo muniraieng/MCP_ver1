@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+      "weather": {
+        "command": "D:\\ai\\my\\mcp\\mcp_v1\\.venv\\Scripts\\mcp.exe",
+        "args": [
+          "run",
+          "D:\\ai\\my\\mcp\\mcp_v1\\server\\weather.py"
+        ]
+      }
+    }
+  }

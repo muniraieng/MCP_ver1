@@ -1,0 +1,12 @@
+uv run mcp install ./server/example.py
+
+it will install this mcp server into your claude config -> how get find in claude desktop client app ? -> open MCP Tools dialog
+
+check in settings.json -> File -> Settings -> Developer -> Example -> edit config -> check in json
+
+
+- If you actually want Claude Desktop integration, you need Claude Desktop installed and reachable on the system.
+
+- If your target is Gemini CLI, mcp install is the wrong path. That command is Claude-specific, so Gemini will need
+    its own MCP configuration instead of this installer.
+ 
